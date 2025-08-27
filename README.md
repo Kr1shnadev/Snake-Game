@@ -1,7 +1,7 @@
 # Snake Game
 
 A classic Snake game implemented in Python using the `turtle` graphics library.
-
+![Image](https://github.com/user-attachments/assets/00d8ef9b-c71b-4fb4-ab49-b00cd631a75c)
 ## Description
 
 Control the snake to eat food and grow longer. Avoid colliding with the walls or your own tail. The game ends when the snake hits the wall or itself. Your score increases each time you eat food.
