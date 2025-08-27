@@ -19,9 +19,10 @@ class Scoreboard(Turtle):
     def game_over(self):
         self.penup()
         self.goto(30, 0)
-        self.write(f"GAME OVER! YOU SUCK!  ", False, align=ALIGNMENT, font=(FONT, FONT_SIZE, TYPE))
+        self.write(f"GAME OVER!  ", False, align=ALIGNMENT, font=(FONT, FONT_SIZE, TYPE))
 
     def point_up(self):
         self.points += 1
         self.clear()
         self.write(f"Score: {self.points} ", False, align=ALIGNMENT, font=(FONT, FONT_SIZE, TYPE))
+
